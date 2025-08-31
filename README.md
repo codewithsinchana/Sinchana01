@@ -1,6 +1,7 @@
 # Sinchana01
 
 This is my first github repository.
+
 author- Sinchana("every sec with code").
 
 ## Output  
