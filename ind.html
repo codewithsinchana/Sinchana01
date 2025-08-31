@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Small HTML Example</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:#f7f7f7; }
+    .card { background:#fff; padding:24px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08); text-align:center; width:320px; }
+    button { padding:10px 16px; border:0; border-radius:8px; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hi, Sinchu 👋</h1>
+    <p>Click the button to see a message.</p>
+    <button id="btn">Say hello</button>
+  </div>
+
+  <script>
+    document.getElementById('btn').addEventListener('click', () => {
+      alert('Hello! This is a small HTML example.');
+    });
+  </script>
+</body>
+</html>
